@@ -3,7 +3,7 @@
 - This project involves cleaning a retail sales transactions dataset containing date parsing issues, extreme outliers in sales and quantity, missing values, and inconsistent store and item identifiers. The goal is to produce a reliable dataset suitable for time-series analysis, demand forecasting, and business reporting.
 
 ## Sample Dataset
--<a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/train.csv">Retail Sales</a>
+- <a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/train.csv">Retail Sales</a>
 
 ## Data Challenges Addressed
 - Mixed and invalid date formats in transaction timestamps
@@ -23,7 +23,7 @@
 
 ## Outcome
 - A clean, consistent retail sales dataset ready for trend analysis, sales forecasting, and performance analytics.
-- -<a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/cleaned_retail_sales_data.csv">Cleaned Retail Sales</a>
+- <a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/cleaned_retail_sales_data.csv">Cleaned Retail Sales</a>
 
 # Project 5: Spotify Streaming History Data Cleaning Project
 
