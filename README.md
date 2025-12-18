@@ -51,3 +51,56 @@
 ## Outcome
 - A cleaned and validated Spotify streaming dataset suitable for listening behavior analysis, trend detection, and recommendation system development.
 - <a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/cleaned_spotify_streaming_history.csv">Cleaned_Spotify_Streaming</a>
+
+
+# Project 6:  Data Science Job Postings – Advanced Data Cleaning Project
+## Description
+- This project cleans Glassdoor job postings data containing salary outliers, unstructured job descriptions, inconsistent job titles, and mixed location formats. The dataset simulates real-world labor market data used for salary analysis and workforce analytics.
+
+## Sample Data
+<a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/Cleaned_DS_Jobs.csv">Cleaned DS Job</a>
+<a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/Uncleaned_DS_jobs.csv">Uncleaned DS Job</a>
+
+## Data Challenges Addressed
+-Extreme salary outliers
+- Missing or inconsistent salary ranges
+- Unstructured textual job descriptions
+- Inconsistent job titles and location formats
+- Duplicate job postings
+
+## Advanced Techniques Applied
+- Salary outlier detection using threshold-based logic
+- Job title and location standardization
+- Cleaning and preprocessing unstructured text fields
+- Handling missing salary values
+- Data consistency checks and validation
+
+## Outcome
+- A structured and cleaned job postings dataset ready for job market analysis, salary prediction models, and NLP-based insights.
+- <a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/Uncleaned_DS_jobs.csv">Cleaned DS Job Posting</a>
+
+# Project 7: NYC Taxi Trips – Large-Scale Data Cleaning Project
+##  Description
+- This project involves cleaning and preprocessing large-scale NYC taxi trip data containing millions of records with GPS coordinate errors, fare discrepancies, invalid passenger counts, and missing timestamps. Due to the dataset’s size, chunk-based processing is used to ensure memory efficiency and scalability.
+
+## Sample Dataset
+<a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/taxi_zone_lookup.csv">Taxi Dataset</a>
+
+## Data Challenges Addressed
+- Invalid GPS coordinates outside NYC boundaries
+- Incorrect passenger counts (zero or unrealistic values)
+- Fare and trip distance anomalies
+- Missing or malformed datetime values
+- Extremely large dataset size requiring optimized processing
+
+## Advanced Techniques Applied
+- Chunk-wise data processing using pd.read_csv(chunksize=…)
+- Geographic boundary validation for latitude and longitude
+- Logical filtering of passenger count, fare amount, and trip distance
+- Datetime parsing with error coercion
+- Memory-efficient writing of cleaned data to disk
+- Data quality validation using assertions
+
+## Outcome
+- A scalable, high-quality taxi trip dataset suitable for urban mobility analytics, demand forecasting, and transportation modeling.
+- <a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/cleaned_sample_nyc_taxi_trips.csv">Cleaned Taxi Dataset</a>
