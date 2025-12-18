@@ -30,6 +30,9 @@
 ## Project Description
 - This project focuses on cleaning Spotify streaming history data containing timestamp errors, missing track identifiers, inconsistent artist names, and duplicate listening records. The objective is to prepare user listening data for behavioral analysis and recommendation-based insights.
 
+## Sample Dataset
+- <a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/spotify_data_dictionary.csv">Spotify_data_dictionary</a>
+- <a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/spotify_history.csv">Spotify_data_history</a>
 ## Data Challenges Addressed
 - Invalid or missing timestamp values
 - Missing track IDs
@@ -47,3 +50,4 @@
 
 ## Outcome
 - A cleaned and validated Spotify streaming dataset suitable for listening behavior analysis, trend detection, and recommendation system development.
+-<a href="https://github.com/kvkoushik875/Data-cleaning-projects_Intermediate_level/blob/main/cleaned_spotify_streaming_history.csv">Cleaned_Spotify_Streaming</a>
